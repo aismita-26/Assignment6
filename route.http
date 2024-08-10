@@ -1,0 +1,42 @@
+GET http://localhost:9000/subscribers
+
+
+
+###
+
+POST http://localhost:9000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Magical Ange",
+    "domain": "Data Engineering"
+}
+
+
+
+
+###
+
+
+
+
+GET http://localhost:9000/subscribers/66b7aba5ee5ae60a135f1b69
+
+
+
+
+###
+
+PATCH http://localhost:9000/subscribers/66b7ac2bee5ae60a135f1b6f
+Content-Type: application/json
+
+{
+    "name": "Platinum Junkook"
+}
+
+
+
+
+###
+
+DELETE http://localhost:9000/subscribers/66b7ad58ee5ae60a135f1b81
